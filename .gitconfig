@@ -1,0 +1,49 @@
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[alias]
+  ar = archive
+  ci = commit
+  lo = log
+  pi = cherry-pick
+  st = status
+  ca = commit -a
+  sd = svn dcommit
+  sl = svn log
+  com = checkout master
+
+  ab   = !git-active-branches
+  arb  = !git-archive-branch
+  au   = !git-add-untracked
+  coc  = !git-checkout-clean
+  cp   = !git-checkpoint
+  f    = !git-files
+  fm   = !git-files-modified
+  iu   = !git-ignore-untracked
+  ki   = !git-kill
+  pu   = !git-pull-master
+  ra   = !git-rebase-active
+  rem  = !git-remaster
+  rt   = !git-root-dir
+  sbr  = !git-say-branch
+  sr   = !git-svn-rev
+  uf   = !git-untracked-files
+  up   = !git-up-branch
+
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p
+
+[svn]
+  followparent = true
+[core]
+  excludesfile = ~/.git/info/exclude
+[commit]
+  template = ~/git-commit-template.txt
+[user]
+  name = upupda
+  email = umcser@gmail.com
+
+
