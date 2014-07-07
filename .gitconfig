@@ -47,3 +47,6 @@
   email = umcser@gmail.com
 
 
+[remote "origin"]
+	url = https://github.com/upupda/ef.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
