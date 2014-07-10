@@ -4,6 +4,7 @@ core = 7.x
 engine = phptemplate
 stylesheets[all][] = css/bootstrap.min.css
 stylesheets[all][] = css/flexslider.css
+stylesheets[all][] = css/front.css
 stylesheets[all][] = style.css
 scripts[] = js/bootstrap.min.js
 scripts[] = js/superfish.js

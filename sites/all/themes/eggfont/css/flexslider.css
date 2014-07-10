@@ -76,3 +76,48 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
   .flex-direction-nav .flex-next {opacity: 1; right: 0;}
 }
+
+.front-r2 a {
+  display: inline-block;
+  width: 48%;
+}
+
+.front-r3 a {
+  display: inline-block;
+}
+
+.front-r2 {
+  height: auto;
+}
+
+.front-r3 {
+  height: 240px;
+}
+
+#front-r3-1 {
+  background: url("images/r3-job.jpg");
+  background-size: auto 240px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 31%;
+  float: left;
+}
+
+#front-r3-2 {
+  background: url("images/r3-compatability.jpg");
+  background-size: auto 240px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 31%;
+  float: left;
+  margin: 0px 3px;
+}
+
+#front-r3-3 {
+  background: url("images/r3-mail.jpg");
+  background-size: auto 240px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 31%;
+  float: left;
+}
