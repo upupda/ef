@@ -1,13 +1,77 @@
-.front-r2 {
+.front-r2-1 {
   display: inline-block;
-  width: 48%;
-  margin: 1%;
-  height: 360px;
+  width: 49.6%;
+}
+.front-r2-2 {
+  display: inline-block;
+  width: 49.6%;
+  margin-left: 0.8%;
+}
+
+.front-r3 a {
+  display: inline-block;
+}
+
+.front-r2 {
+  height: auto;
 }
 
 .front-r3 {
-  display: inline-block;
-  width: 30%;
-  margin: 1%;
   height: 240px;
+}
+
+#front-r3-1 {
+  background: url("images/r3-job.jpg");
+  background-size: auto 240px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 33%;
+  float: left;
+}
+
+#front-r3-2 {
+  background: url("images/r3-compatability.jpg");
+  background-size: auto 240px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 33%;
+  float: left;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+#front-r3-3 {
+  background: url("images/r3-mail.jpg");
+  background-size: auto 240px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 33%;
+  float: left;
+}
+
+#main-content .container {
+  text-align: center;
+}
+
+h2.product-large-header {
+  font-size: 3rem;
+  margin-top: 36px;
+  color: #00afd8;
+  font-size: 20px;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Akkurat", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+p {
+  font-family: "Fuller Sans", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-rendering: optimizelegibility;
+  margin-bottom: 1em;
+  color: #8a9298;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: inherit;
+  line-height: 1.2;
 }

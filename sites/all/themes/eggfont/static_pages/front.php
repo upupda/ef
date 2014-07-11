@@ -10,7 +10,7 @@ class :ef:front extends :x:element {
 
   protected function render() {
     return
-      <div id="page">
+      <div id="front">
         {$this->renderSlides()}
         <div id="main-content">
           {$this->renderMainContent()}
@@ -74,10 +74,10 @@ class :ef:front extends :x:element {
     $slide3_url = check_plain(theme_get_setting('slide3_url','eggfont'));
     $r2 =
       <section class="front-r2">
-        <a href={url($slide1_url)} class="front-r2">
+        <a href={url($slide1_url)} class="front-r2-1">
           <img src={base_path() . drupal_get_path('theme', 'eggfont') . '/images/r2-thermostat.jpg'} />
         </a>
-        <a href={url($slide2_url)} class="front-r2">
+        <a href={url($slide2_url)} class="front-r2-2">
           <img src={base_path() . drupal_get_path('theme', 'eggfont') . '/images/r2-protector.jpg'} />
         </a>
       </section>;
@@ -90,7 +90,7 @@ class :ef:front extends :x:element {
         </div>
         <div id="front-r3-2">
           <a href={url($slide2_url)} class="front-r3">
-            <span>Job</span>
+            <span style="padding-left: 135px;">Job</span>
           </a>
         </div>
         <div id="front-r3-3">
@@ -99,10 +99,23 @@ class :ef:front extends :x:element {
           </a>
         </div>
       </section>;
+
+    $blog =
+      <div class="container">
+        <h2 class="product-large-header">
+          <a href="/blog/" title="Blog: Inside Nest">
+            Blog: Inside ef
+          </a>
+        </h2>
+        <p>
+          Here’s what we’re working on and thinking about at ef.
+        </p>
+      </div>;
     return
       <x:frag>
         {$r2}
         {$r3}
+        {$blog}
       </x:frag>;
   }
 }

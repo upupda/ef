@@ -77,47 +77,18 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-next {opacity: 1; right: 0;}
 }
 
-.front-r2 a {
-  display: inline-block;
-  width: 48%;
-}
-
-.front-r3 a {
-  display: inline-block;
-}
-
-.front-r2 {
-  height: auto;
-}
-
-.front-r3 {
-  height: 240px;
-}
-
-#front-r3-1 {
-  background: url("images/r3-job.jpg");
-  background-size: auto 240px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 31%;
-  float: left;
-}
-
-#front-r3-2 {
-  background: url("images/r3-compatability.jpg");
-  background-size: auto 240px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 31%;
-  float: left;
-  margin: 0px 3px;
-}
-
-#front-r3-3 {
-  background: url("images/r3-mail.jpg");
-  background-size: auto 240px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 31%;
-  float: left;
+#page {
+  width: 100%;
+  max-width: 1280px;
+  -webkit-transition: -webkit-transform 400ms ease-in-out;
+  -moz-transition: -moz-transform 400ms ease-in-out;
+  -o-transition: -o-transform 400ms ease-in-out;
+  -ms-transition: -ms-transform 400ms ease-in-out;
+  transition: transform 400ms ease-in-out;
+  /* width: 100%; */
+  /* position: relative; */
+  box-shadow: -5px 0px 10px 1px rgba(0,0,0,0.25); 
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
